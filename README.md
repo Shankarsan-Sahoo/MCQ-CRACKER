@@ -1,4 +1,4 @@
-# MCQ Solver Chrome Extension 🧠💡
+# MCQ Solver Chrome Extension 💡
 
 ## Overview
 The **MCQ Solver Chrome Extension** enables users to effortlessly highlight multiple-choice questions (MCQs) on any webpage and instantly retrieve the correct answer using the **DeepSeek Chat API**. This tool streamlines MCQ-solving by integrating AI-driven response generation into the browser. 🚀
