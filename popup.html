@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .instructions {
+      font-size: 12px;
+      color: #666;
+      line-height: 1.5;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3>Open-Router Setup</h3>
+    <input type="text" id="apiKey" placeholder="Enter OpenRouter API key">
+    <button id="saveKey">Save API Key</button>
+    <div class="instructions">
+      1. Get your API key from 
+      <a href="https://openrouter.ai/keys" target="_blank">OpenRouter</a><br>
+      2. Paste it here<br>
+      3. Highlight any MCQ to analyze<br><br>
+      <strong>Having issues?</strong><br>
+      - Ensure your API key is valid<br>
+      - Check <a href="https://status.openrouter.ai/" target="_blank">OpenRouter Status</a><br>
+      - Try a simpler question
+    </div>
+    <div id="status" style="color: #4CAF50; font-size: 12px;"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
