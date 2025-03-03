@@ -39,6 +39,8 @@ The **MCQ Solver Chrome Extension** enables users to effortlessly highlight mult
 ![Screenshot 1](screenshot1.png)  
 *Example of the extension in action*
 
+[Watch on YouTube](https://youtu.be/4Ikr7zd-CQE?si=ei12fBkjc3nsm6hk)
+
 ## License 📜
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
